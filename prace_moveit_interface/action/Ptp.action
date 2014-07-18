@@ -1,0 +1,10 @@
+#goal definition
+string move_group
+string target_frame
+geometry_msgs/PoseStamped goal_pose
+float32 vel_factor
+---
+#result definition
+int32 errorcode
+---
+#feedback

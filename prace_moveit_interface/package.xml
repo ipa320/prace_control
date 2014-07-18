@@ -1,0 +1,44 @@
+<package>
+  <name>prace_moveit_interface</name>
+  <version>0.1.0</version>
+  <description>
+     prace_moveit_interface
+  </description>
+  <author email="bnm@ipa.fhg.de">Benjamin Maidel</author>
+  <maintainer email="bnm@ipa.fhg.de">Benjamin Maidel</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/prace/</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_move_group</build_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>moveit_msgs</run_depend>
+  <run_depend>tf_conversions</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+
+  <export>
+  </export>
+
+</package>
+

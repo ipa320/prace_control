@@ -1,0 +1,22 @@
+<package>
+  <name>frida_moveit_plugins</name>
+  <version>0.1.0</version>
+  <description>Frida-specific plugins for MoveIt</description>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/prace</url>
+
+  <maintainer email="bnm@fhg.de">Benjamin Maidel</maintainer>
+  <author email="bnm@fhg.de">Benjamin Maidel</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>roscpp</run_depend>
+
+  <export>
+    <moveit_core plugin="${prefix}/frida_plugins.xml"/>
+  </export>
+</package>

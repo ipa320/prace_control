@@ -1,0 +1,8 @@
+#goal definition
+int16 sync_id
+int16 num_sync_partners
+---
+#result definition
+int32 errorcode
+---
+#feedback

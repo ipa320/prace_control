@@ -1,0 +1,9 @@
+#goal definition
+string move_group
+sensor_msgs/JointState joint_state
+float32 vel_factor
+---
+#result definition
+int32 errorcode
+---
+#feedback

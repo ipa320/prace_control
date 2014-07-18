@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ASCII'?>
+<class_libraries>
+	<library path="lib/libikfast_frida">
+		<class name="frida_kinematics/IKFastFridaPlugin" type="frida_kinematics::IKFastFridaPlugin" base_class_type="kinematics::KinematicsBase"/>
+	</library>
+	<library path="lib/libikfast_fridagripper">
+		<class name="frida_kinematics/IKFastFridaGripperPlugin" type="frida_kinematics::IKFastFridaGripperPlugin" base_class_type="kinematics::KinematicsBase"/>
+	</library>
+</class_libraries>

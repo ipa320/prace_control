@@ -1,0 +1,7 @@
+#goal definition
+int16 plan_id
+---
+#result definition
+int32 errorcode
+---
+#feedback

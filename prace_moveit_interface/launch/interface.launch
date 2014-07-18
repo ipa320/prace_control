@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="pallet_pattern" pkg="prace_palletpattern" type="pallet_pattern_node" output="screen"/>
+	<node name="prace_moveit_interface" pkg="prace_moveit_interface" type="moveit_interface" output="screen">
+		<param name="action_ns" value="/arm_controller"/>
+	</node>
+	<node name="dynamic_reconfigure_duration" pkg="dynamic_reconfigure" type="dynparam" args="set /move_group/trajectory_execution allowed_execution_duration_scaling 2.6" />
+	<node name="dynamic_reconfigure_velocity" pkg="dynamic_reconfigure" type="dynparam" args="set /move_group/trajectory_execution execution_velocity_scaling 2.0" />
+	<node name="dynamic_reconfigure_planning_scene" pkg="dynamic_reconfigure" type="dynparam" args="set /move_group/planning_scene_monitor publish_planning_scene_hz 24.0" />
+</launch>
